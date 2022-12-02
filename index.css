@@ -16,8 +16,9 @@
   color: white;
 
 }
-body{
-  background-color: rgb(234,237,237)
+
+body {
+  background-color: rgb(234, 237, 237)
 }
 
 nav {
@@ -218,7 +219,7 @@ ul {
   text-decoration: none;
 }
 
-/* asrar */
+
 #css {
   color: yellow;
   font-family: 'Odibee Sans', cursive;
@@ -300,7 +301,7 @@ ul {
 
 /* DROPDOWN */
 .dropbtn {
-  background-color:rgb(243,243,243);
+  background-color: rgb(243, 243, 243);
   color: white;
   padding: 13.54px;
   font-size: 16px;
@@ -309,7 +310,8 @@ ul {
   height: fit-content;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
   background-color: transparent;
 }
 
@@ -323,8 +325,8 @@ ul {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  overflow:scroll;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  overflow: scroll;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   height: 300px;
 }
@@ -336,9 +338,13 @@ ul {
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+  background-color: #ddd;
+}
 
-.show {display: block;}
+.show {
+  display: block;
+}
 
 /* SECTION 1 STYLE */
 .section1 {
@@ -350,7 +356,7 @@ ul {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-color: rgb(234,237,237);
+  background-color: rgb(234, 237, 237);
 }
 
 
@@ -471,9 +477,22 @@ img {
   max-height: 400px;
 }
 
+.backButton {
+  background-color: rgb(51, 54, 71);
+  height: 50px;
+  float: center;
+  display: flex;
+}
+
+.backButton p {
+  padding-left: 45%;
+  padding-top: 15px;
+}
+
 /* FOOTER */
 
 .container {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   height: 20rem;
@@ -518,7 +537,7 @@ h4 {
   padding-top: 20px;
   display: flex;
   justify-content: center;
-  height: 50rem;
+  height: 30rem;
   justify-content: space-around;
   background-color: rgb(19, 26, 34);
   padding-left: 20rem;
@@ -532,63 +551,25 @@ h4 {
 .container1 a:hovere {
   text-decoration: underline;
 }
-#imagelogo{
+
+#imagelogo {
   width: 50px;
   height: 40px;
   background-color: transparent;
   /* background-color: pink;   */
 }
-#select{
+
+#select {
   background-color: #4d627b;
   color: #ddd;
 }
-#val{
+
+#val {
   color: #fff;
 }
-#select{
+
+#select {
   height: 38px;
   width: 50px;
   color: #fff;
 }
-
-
-
-
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    background-color: #cacaca;
-    padding: 10px;
-    margin: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.item {
-    background-color: red;
-    color: #fff;
-    font-size: 35px;
-    padding: 20px;
-    margin: 10px;
-    flex-grow: 1;
-}
-
-.items-1 {
-
-}
-
-.items-2 {
-    
-}
-
-.items-3 {
-    flex-grow: 3;
-} */
